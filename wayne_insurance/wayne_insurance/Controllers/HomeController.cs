@@ -27,6 +27,14 @@ namespace wayne_insurance.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+
+            public ActionResult items()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+
+
         }
     }
 }
